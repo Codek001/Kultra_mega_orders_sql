@@ -1,5 +1,5 @@
-# Kultra_mega_orders_sql
-Documentation of my data analysis project using SQL with Incubator.
+# Kultra_mega_stores_orders_sql
+Documentation of my data analysis project using SQL (DSA_Incubator_hub project).
 
 # Exploratory Data Analysis (EDA) of KMS
 
@@ -73,7 +73,7 @@ The most common customer segment is 'Corporate', followed by 'Home Office', 'Con
 
 5. **Valuable Customers**: The most valuable customers typically purchase technological products. Focus on maintaining strong relationships with these customers.
 
-6. **Returned Items**: Customers from all segments returned goods, with 872 orders returned. Most goods were delivered in less than 4 days.
+6. **Returned Items**: Customers from all segments returned goods, with 872 orders returned. Most goods were delivered in less than 5 days.
 
 7. **Order Priority and Shipping**: Ensure high-priority orders are shipped using faster methods like 'Express Air', while lower-priority orders use more economical methods like 'Delivery Truck'.
 
