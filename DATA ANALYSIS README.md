@@ -1,5 +1,3 @@
-![Uploading Copilot_20250630_141335.png…]()
-
 
 ---
 
