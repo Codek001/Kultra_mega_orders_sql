@@ -8,8 +8,31 @@
 
 | Table          | Observations | Variables                             | Missing Data                                              | Notes                       |
 | -------------- | ------------ | ------------------------------------- | --------------------------------------------------------- | --------------------------- |
-| `kms`          | 8,399        | 20 (19 after dropping `product_name`) | Few missing/zero entries in `Product_Base_Margin` handled | Main transactional dataset  |
+| `kms`          | 8,399        | 21 (20 after dropping `product_name`) | Few missing/zero entries in `Product_Base_Margin` handled | Main transactional dataset  |
 | `order_status` | 572          | 2                                     | None                                                      | Used to track return status |
+Table: kms
+Columns:
+1.	Row ID (int): A unique identifier for each row in the dataset.
+2.	Order ID (int): A unique identifier for each order.
+3.	Order Date (text): The date on which the order was placed.
+4.	Order Priority (text): The priority level of the order (e.g., High, Medium, Low).
+5.	Order Quantity (int): The number of units ordered.
+6.	Sales (double): The total sales amount for the order.
+7.	Discount (double): The discount applied to the order.
+8.	Ship Mode (text): The mode of shipping used for the order (e.g., Standard, Express).
+9.	Profit (double): The profit made from the order.
+10.	Unit Price (double): The price per unit of the product.
+11.	Shipping Cost (double): The cost incurred for shipping the order.
+12.	Customer Name (text): The name of the customer who placed the order.
+13.	Province (text): The province where the customer is located.
+14.	Region (text): The region where the customer is located.
+15.	Customer Segment (text): The segment to which the customer belongs (e.g., Consumer, Corporate).
+16.	Product Category (text): The category of the product ordered (e.g., Technology, Furniture).
+17.	Product Sub-Category (text): The sub-category of the product ordered.
+18.	Product Name (text): The name of the product ordered.
+19.	Product Container (text): The type of container used for the product (e.g., Box, Wrap).
+20.	Product Base Margin (double): The base margin for the product.
+21.	Ship Date (text): The date on which the order was shipped.
 
 ---
 
@@ -119,8 +142,8 @@
 
 ### 11. **Shipping Cost Efficiency by Priority**
 
-* Express Air = faster but costlier
-* Delivery Truck = cheaper but slower
+* Express Air = faster but cost less
+* Regular Air = Most used
+* Delivery Truck = costlier and slower
 * Recommendation: align **Order Priority** with appropriate **Shipping Mode**.
 
--
