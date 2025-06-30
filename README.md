@@ -15,7 +15,7 @@ The `kms_table` contains 20 variables and 8399 observations. Initially, one vari
 
 ### Order Status Table
 
-The `order_status_table` consists of 2 variables and 572 observations. This table records the status of orders, indicating whether they were returned or not.
+The `order_status_table` consists of 2 variables and 572 observations. This table records the status of orders, indicating whether they were returned.
 
 ## Data Cleaning
 
